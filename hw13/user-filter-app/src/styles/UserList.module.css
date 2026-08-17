@@ -1,0 +1,9 @@
+.list {
+  padding: 0;
+  margin: 0;
+}
+
+.empty {
+  color: #888;
+  font-style: italic;
+}
