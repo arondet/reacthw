@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Times New Roman', serif;
+  border-top: 6px solid #333;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  padding: 6px 8px;
+  font-size: 15px;
+  border: 1px solid #999;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.container p {
+  font-size: 15px;
+  margin: 8px 0;
+}
