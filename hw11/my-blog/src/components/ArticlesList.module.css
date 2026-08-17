@@ -1,0 +1,29 @@
+.container {
+  padding: 60px 40px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.item {
+  margin-bottom: 12px;
+}
+
+.link {
+  font-size: 18px;
+  color: #4361ee;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

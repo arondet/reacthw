@@ -1,0 +1,25 @@
+.nav {
+  background: #1a1a2e;
+  padding: 12px 20px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.link {
+  color: #a0c4ff;
+  text-decoration: underline;
+  font-size: 15px;
+}
+
+.activeLink {
+  color: #ffffff;
+  text-decoration: underline;
+  font-weight: 700;
+  font-size: 15px;
+}
