@@ -1,0 +1,91 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.infoBlock {
+  flex: 1;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.contactList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.contactList li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 350px;
+}
+
+.input {
+  padding: 10px 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.input:focus {
+  outline: 2px solid #4361ee;
+  border-color: #4361ee;
+}
+
+.button {
+  padding: 10px;
+  background-color: #4361ee;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #3651d4;
+}
+
+.socialBlock {
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.socialText {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.socialLinks {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.15s ease;
+}
+
+.icon:hover {
+  transform: scale(1.15);
+}
