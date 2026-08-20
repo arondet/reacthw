@@ -1,0 +1,32 @@
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 20px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 12px;
+  background: #2b8a3e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.submitButton:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+.submitButton:hover:not(:disabled) {
+  background: #237032;
+}
