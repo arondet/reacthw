@@ -1,0 +1,41 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  min-height: 380px;
+  padding: 48px;
+  border-radius: var(--radius-lg);
+  background: url('/images/home/promo-bg.png') center / cover no-repeat;
+}
+
+.title {
+  max-width: 560px;
+  font-size: 44px;
+  line-height: 1.15;
+  color: #fff;
+}
+
+.button {
+  padding: 14px 28px;
+  background: var(--color-primary);
+  color: #fff;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+}
+
+.button:hover {
+  background: var(--color-primary-dark);
+}
+
+@media (max-width: 640px) {
+  .banner {
+    min-height: 280px;
+    padding: 32px 24px;
+  }
+
+  .title {
+    font-size: 28px;
+  }
+}
